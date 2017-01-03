@@ -5,10 +5,11 @@ TutorBot is a mobile first web application for teachers and tutors to automate t
 https://docs.google.com/forms/d/e/1FAIpQLSdgXBcMxd27m-CMVZ4Os5jq-SQIQMwxLHDYW4NEA4w882uy-Q/viewform
 
 ### Anticipated technologies
-- Angular 2
-- Node
+- Angular 2 & Ionic 2.0
+- NodeJS
 - Express
 - Postgres & MongoDB
+- SCSS
 - Passport (Login & Authentication)
 - JWT (Authorization)
 - Stripe api (payment)

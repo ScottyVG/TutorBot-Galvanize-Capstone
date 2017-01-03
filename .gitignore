@@ -4,3 +4,5 @@ npm-debug.log
 logs
 *.log
 *.seed
+notes
+.gitignore
