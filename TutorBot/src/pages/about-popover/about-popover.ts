@@ -8,8 +8,8 @@ import { SupportPage } from '../support/support';
 @Component({
   template: `
     <ion-list>
-      <button ion-item (click)="close('http://ionicframework.com/docs/v2')">Documentation</button>
-      <button ion-item (click)="close('https://github.com/driftyco/ionic')">GitHub Repo</button>
+      <button ion-item (click)="close('http://scottvangilder.com')">About the Author</button>
+      <button ion-item (click)="close('https://github.com/ScottyVG/TutorBot-Galvanize-Capstone')">GitHub Repo</button>
       <button ion-item (click)="support()">Support</button>
     </ion-list>
   `
