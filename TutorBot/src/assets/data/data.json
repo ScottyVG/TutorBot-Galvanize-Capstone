@@ -9,6 +9,7 @@
         "timeStart": "8:00 am",
         "timeEnd": "9:00 am",
         "location": "Room 127",
+        "description": "Doughnuts, bacon, eggs, and cheesy goodness.",
         "tracks": ["Food"]
       }]
     }, {
@@ -16,88 +17,88 @@
       "sessions": [{
         "name": "Introduction to Music",
         "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Refresh your memory of or learn new information about introductory music topics with the assistance of this course. The lessons available in this course cover a wide range of music topics, and can help you prepare for a big music exam or a pop quiz, complete a homework assignment, or boost your knowledge of music fundamentals for personal interest.",
         "speakerNames": ["Ellie Elephant"],
         "timeStart": "9:00 am",
         "timeEnd": "9:30 am",
-        "tracks": ["Ionic"]
+        "tracks": ["Music"]
       }, {
         "name": "Getting started with Math",
         "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Students work through voice-enabled interactive lessons that provide them with feedback and support throughout the mastery experience.",
         "speakerNames": ["Ted Turtle"],
         "timeStart": "9:30 am",
         "timeEnd": "9:45 am",
-        "tracks": ["Ionic"]
+        "tracks": ["Math"]
       }, {
-        "name": "Lesson with Scotty",
+        "name": "Swim Lesson with Rachel Rabbit",
         "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "he nice thing about swimming is that it's a relatively low-maintenance, low-cost sport to take up. Unlike other activities like cycling, rock climbing, or even running (which can cost you up to $140 for a decent pair of shoes), swimming will cost you less than $45 to start.",
         "speakerNames": ["Rachel Rabbit"],
         "timeStart": "9:45 am",
         "timeEnd": "10:00 am",
-        "tracks": ["Tooling"]
+        "tracks": ["Swimming"]
       }]
     }, {
       "time": "10:00 am",
       "sessions": [{
         "name": "How to Add",
         "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Students work through voice-enabled interactive lessons that provide them with feedback and support throughout the mastery experience.",
         "speakerNames": ["Eva Eagle", "Lionel Lion"],
         "timeStart": "10:00 am",
         "timeEnd": "10:15 am",
-        "tracks": ["Ionic"]
+        "tracks": ["Math"]
       }, {
         "name": "The evolution of Birds",
         "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "The evolution of birds began in the Jurassic Period, with the earliest birds derived from a clade of theropoda dinosaurs named Paraves. Birds are categorized as a biological class, Aves. ... Currently, the relationship between dinosaurs, Archaeopteryx, and modern birds is still under debate.",
         "speakerNames": ["Isabella Iguana", "Eva Eagle"],
         "timeStart": "10:15 am",
         "timeEnd": "10:30 am",
-        "tracks": ["Design"]
+        "tracks": ["Science"]
       }, {
-        "name": "Individual lesson with Scotty",
+        "name": "Individual lesson with Charlie Cheetah",
         "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "The nice thing about swimming is that it's a relatively low-maintenance, low-cost sport to take up. Unlike other activities like cycling, rock climbing, or even running (which can cost you up to $140 for a decent pair of shoes), swimming will cost you less than $45 to start.",
         "speakerNames": ["Charlie Cheetah"],
         "timeStart": "10:30 am",
         "timeEnd": "11:00 am",
-        "tracks": ["Services"]
+        "tracks": ["Swimming"]
       }]
     }, {
       "time": "11:00 am",
       "sessions": [{
         "name": "Grammer Workshop",
         "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Students can never have enough practice on these common grammar errors—fragments and run-on sentences. Whether for guided instruction or independent practice, download a free practice sheet.",
         "speakerNames": ["Karl Kitten", "Lionel Lion"],
         "timeStart": "11:00 am",
         "timeEnd": "11:45 am",
-        "tracks": ["Workshop"]
+        "tracks": ["English"]
       }, {
-        "name": "Community Talk",
+        "name": "Biology Lesson",
         "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "The Study of Life. Biology is a natural science concerned with the study of life and living organisms. Modern biology is a vast and eclectic field composed of many specialized disciplines that study the structure, function, growth, distribution, evolution, or other features of living organisms.",
         "speakerNames": ["Lionel Lion", "Gino Giraffe"],
         "timeStart": "11:30 am",
         "timeEnd": "11:50 am",
-        "tracks": ["Communication"]
+        "tracks": ["Science"]
       }, {
         "name": "Learning to code",
         "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Whether you're looking to change careers, launch a new business, or expand your existing skill set, we can help. We created the Intro to Code Workshop to show aspiring developers that truly anyone can code.",
         "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
         "timeStart": "11:30 am",
         "timeEnd": "12:00 pm",
-        "tracks": ["Navigation"]
+        "tracks": ["Computer Science"]
       }]
     }, {
       "time": "12:00 pm",
       "sessions": [{
         "name": "Lunch & Learn",
         "location": "Auditorium",
-        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
+        "description": "Come grab lunch with with all of your learning fanatics and friends",
         "timeStart": "12:00 pm",
         "timeEnd": "1:00 pm",
         "tracks": ["Food"]
@@ -105,71 +106,70 @@
     }, {
       "time": "1:00 pm",
       "sessions": [{
-        "name": "Ionic in the Enterprise",
+        "name": "Intro to Physics",
         "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "In this tutorial we begin to explore ideas of velocity and acceleration. We do exciting things like throw things off cliffs (far safer on paper than in real life) and see how high a ball will fly in the air.",
         "speakerNames": ["Paul Puppy"],
         "timeStart": "1:00 pm",
         "timeEnd": "1:15 pm",
-        "tracks": ["Communication"]
+        "tracks": ["Science"]
       }, {
-        "name": "Ionic Worldwide",
+        "name": "Welcome to the Internet!",
         "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Teaches you the basics of Googling things in a legit way.",
         "speakerNames": ["Gino Giraffe"],
         "timeStart": "1:15 pm",
         "timeEnd": "1:30 pm",
-        "tracks": ["Communication"]
+        "tracks": ["Computer Science"]
       }, {
-        "name": "The Ionic package service",
+        "name": "Survival Lessons With Burt Bear & Molly Mouse",
         "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "Think fast: You’re stranded in the woods with darkness falling and no help in sight. Can you to get safety before the elements (or wild animals) get to you? Wilderness guru Creek Stewart checks in to help you determine if your outdoor skills are really",
         "speakerNames": ["Molly Mouse", "Burt Bear"],
         "timeStart": "1:30 pm",
         "timeEnd": "2:00 pm",
-        "tracks": ["Services"]
+        "tracks": ["Self Improvement"]
       }]
     }, {
       "time": "2:00 pm",
       "sessions": [{
-        "name": "Push Notifications in Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Burt Bear", "Charlie Cheetah"],
+        "name": "Swim Lesson with Rachel Rabbit",
+        "location": "Room 2201",
+        "description": "he nice thing about swimming is that it's a relatively low-maintenance, low-cost sport to take up. Unlike other activities like cycling, rock climbing, or even running (which can cost you up to $140 for a decent pair of shoes), swimming will cost you less than $45 to start.",
+        "speakerNames": ["Rachel Rabbit"],
         "timeStart": "2:00 pm",
         "timeEnd": "2:30 pm",
         "tracks": ["Services"]
       }, {
-        "name": "Ionic Documentation",
+        "name": "Getting started with Math",
         "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Donald Duck"],
+        "description": "Students work through voice-enabled interactive lessons that provide them with feedback and support throughout the mastery experience.",
+        "speakerNames": ["Ted Turtle"],
         "timeStart": "2:30 pm",
         "timeEnd": "2:45 pm",
-        "tracks": ["Documentation"]
+        "tracks": ["Math"]
       }, {
-        "name": "UX planning in Ionic",
+        "name": "Introduction to Music",
         "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
+        "description": "Refresh your memory of or learn new information about introductory music topics with the assistance of this course. The lessons available in this course cover a wide range of music topics, and can help you prepare for a big music exam or a pop quiz, complete a homework assignment, or boost your knowledge of music fundamentals for personal interest.",
+        "speakerNames": ["Ellie Elephant"],
         "timeStart": "2:45 pm",
         "timeEnd": "3:00 pm",
-        "tracks": ["Design"]
+        "tracks": ["Music"]
       }]
     }, {
       "time": "3:00",
       "sessions": [{
-        "name": "Directives in Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
+        "name": "Happy Hour",
+        "location": "Auditorium",
+        "description": "Come mingle with some friends over cold refreshing beverages",
         "timeStart": "3:00 pm",
         "timeEnd": "3:30 pm",
-        "tracks": ["Angular"]
+        "tracks": ["Food"]
       }, {
-        "name": "Mobile States",
+        "name": "Geography Tutor Lesson",
         "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "description": "The main objective of this online textbook is to introduce students to the exciting field of knowledge known as physical geography. Physical geography is a discipline that is part of a much larger area of understanding called geography. Most individuals define geography as a field of study that deals with maps. This definition is only partially correct. A better definition of geography may be the study of natural and human constructed phenomena relative to a spatial dimension.",
         "speakerNames": ["Rachel Rabbit"],
         "timeStart": "3:30 pm",
         "timeEnd": "3:45 pm",
@@ -182,7 +182,7 @@
   "speakers": [{
     "name": "Burt Bear",
     "profilePic": "assets/img/speakers/bear.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Burt is a Bear.",
     "location": "Everywhere",
     "email": "burt@example.com",
@@ -190,7 +190,7 @@
   }, {
     "name": "Charlie Cheetah",
     "profilePic": "assets/img/speakers/cheetah.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Charlie is a Cheetah.",
     "location": "Everywhere",
     "email": "charlie@example.com",
@@ -198,7 +198,7 @@
   }, {
     "name": "Donald Duck",
     "profilePic": "assets/img/speakers/duck.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Donald is a Duck.",
     "location": "Everywhere",
     "email": "donald@example.com",
@@ -206,7 +206,7 @@
   }, {
     "name": "Eva Eagle",
     "profilePic": "assets/img/speakers/eagle.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Eva is an Eagle.",
     "location": "Everywhere",
     "email": "eva@example.com",
@@ -214,7 +214,7 @@
   }, {
     "name": "Ellie Elephant",
     "profilePic": "assets/img/speakers/elephant.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Ellie is an Elephant.",
     "location": "Everywhere",
     "email": "ellie@example.com",
@@ -222,7 +222,7 @@
   }, {
     "name": "Gino Giraffe",
     "profilePic": "assets/img/speakers/giraffe.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Gino is a Giraffe.",
     "location": "Everywhere",
     "email": "gino@example.com",
@@ -230,7 +230,7 @@
   }, {
     "name": "Isabella Iguana",
     "profilePic": "assets/img/speakers/iguana.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Isabella is an Iguana.",
     "location": "Everywhere",
     "email": "isabella@example.com",
@@ -238,7 +238,7 @@
   }, {
     "name": "Karl Kitten",
     "profilePic": "assets/img/speakers/kitten.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Karl is a Kitten.",
     "location": "Everywhere",
     "email": "karl@example.com",
@@ -246,7 +246,7 @@
   }, {
     "name": "Lionel Lion",
     "profilePic": "assets/img/speakers/lion.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Lionel is a Lion.",
     "location": "Everywhere",
     "email": "lionel@example.com",
@@ -254,7 +254,7 @@
   }, {
     "name": "Molly Mouse",
     "profilePic": "assets/img/speakers/mouse.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Molly is a Mouse.",
     "location": "Everywhere",
     "email": "molly@example.com",
@@ -262,7 +262,7 @@
   }, {
     "name": "Paul Puppy",
     "profilePic": "assets/img/speakers/puppy.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Paul is a Puppy.",
     "location": "Everywhere",
     "email": "paul@example.com",
@@ -270,7 +270,7 @@
   }, {
     "name": "Rachel Rabbit",
     "profilePic": "assets/img/speakers/rabbit.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Rachel is a Rabbit.",
     "location": "Everywhere",
     "email": "rachel@example.com",
@@ -278,7 +278,7 @@
   }, {
     "name": "Ted Turtle",
     "profilePic": "assets/img/speakers/turtle.jpg",
-    "twitter": "ionicframework",
+    "twitter": "@scottyvg",
     "about": "Ted is a Turtle.",
     "location": "Everywhere",
     "email": "ted@example.com",
