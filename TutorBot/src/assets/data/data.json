@@ -42,7 +42,7 @@
     }, {
       "time": "10:00 am",
       "sessions": [{
-        "name": "How to Add",
+        "name": "How to Add Numbers",
         "location": "Room 2201",
         "description": "Students work through voice-enabled interactive lessons that provide them with feedback and support throughout the mastery experience.",
         "speakerNames": ["Eva Eagle", "Lionel Lion"],
@@ -50,7 +50,7 @@
         "timeEnd": "10:15 am",
         "tracks": ["Math"]
       }, {
-        "name": "The evolution of Birds",
+        "name": "The Evolution of Birds",
         "location": "Room 2202",
         "description": "The evolution of birds began in the Jurassic Period, with the earliest birds derived from a clade of theropoda dinosaurs named Paraves. Birds are categorized as a biological class, Aves. ... Currently, the relationship between dinosaurs, Archaeopteryx, and modern birds is still under debate.",
         "speakerNames": ["Isabella Iguana", "Eva Eagle"],
@@ -58,7 +58,7 @@
         "timeEnd": "10:30 am",
         "tracks": ["Science"]
       }, {
-        "name": "Individual lesson with Charlie Cheetah",
+        "name": "Individual swim lesson with Charlie Cheetah",
         "location": "Room 2202",
         "description": "The nice thing about swimming is that it's a relatively low-maintenance, low-cost sport to take up. Unlike other activities like cycling, rock climbing, or even running (which can cost you up to $140 for a decent pair of shoes), swimming will cost you less than $45 to start.",
         "speakerNames": ["Charlie Cheetah"],
@@ -91,7 +91,7 @@
         "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
         "timeStart": "11:30 am",
         "timeEnd": "12:00 pm",
-        "tracks": ["Computer Science"]
+        "tracks": ["Science"]
       }]
     }, {
       "time": "12:00 pm",
@@ -120,7 +120,7 @@
         "speakerNames": ["Gino Giraffe"],
         "timeStart": "1:15 pm",
         "timeEnd": "1:30 pm",
-        "tracks": ["Computer Science"]
+        "tracks": ["Science"]
       }, {
         "name": "Survival Lessons With Burt Bear & Molly Mouse",
         "location": "Room 2203",
@@ -128,7 +128,7 @@
         "speakerNames": ["Molly Mouse", "Burt Bear"],
         "timeStart": "1:30 pm",
         "timeEnd": "2:00 pm",
-        "tracks": ["Self Improvement"]
+        "tracks": ["Survival"]
       }]
     }, {
       "time": "2:00 pm",
@@ -139,7 +139,7 @@
         "speakerNames": ["Rachel Rabbit"],
         "timeStart": "2:00 pm",
         "timeEnd": "2:30 pm",
-        "tracks": ["Services"]
+        "tracks": ["Swimming"]
       }, {
         "name": "Getting started with Math",
         "location": "Room 2202",
