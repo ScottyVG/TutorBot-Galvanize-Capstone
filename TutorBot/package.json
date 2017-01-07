@@ -1,10 +1,10 @@
 {
-  "name": "ionic-conference-app",
-  "description": "Ionic Conference App",
-  "license": "Apache-2.0",
+  "name": "tutor-bot-app",
+  "description": "Tutor Bot App",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/driftyco/ionic-conference-app.git"
+    "url": "https://github.com/ScottyVG/TutorBot-Galvanize-Capstone"
   },
   "scripts": {
     "ionic:build": "ionic-app-scripts build",
@@ -30,5 +30,26 @@
   "devDependencies": {
     "@ionic/app-scripts": "0.0.47",
     "typescript": "2.0.9"
-  }
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-device",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-inappbrowser",
+    {
+      "locator": "https://github.com/driftyco/cordova-plugin-wkwebview-engine.git",
+      "id": "cordova-plugin-wkwebview-engine"
+    },
+    "cordova-plugin-crosswalk-webview"
+  ],
+  "cordovaPlatforms": [
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ]
 }
