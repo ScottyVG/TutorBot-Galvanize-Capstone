@@ -20,7 +20,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
 
-import { ConferenceData } from '../providers/conference-data';
+import { TutorBotData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 
 
@@ -63,6 +63,6 @@ import { UserData } from '../providers/user-data';
     TutorialPage,
     SupportPage
   ],
-  providers: [ConferenceData, UserData, Storage]
+  providers: [TutorBotData, UserData, Storage]
 })
 export class AppModule { }

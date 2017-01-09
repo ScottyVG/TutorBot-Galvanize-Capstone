@@ -10,7 +10,7 @@ import 'rxjs/add/observable/of';
 
 
 @Injectable()
-export class ConferenceData {
+export class TutorBotData {
   data: any;
 
   constructor(public http: Http, public user: UserData) { }
