@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { ActionSheet, ActionSheetController, Config, NavController } from 'ionic-angular';
 import { InAppBrowser } from 'ionic-native';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { TutorBotData } from '../../providers/tb-data';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
 
@@ -16,10 +16,10 @@ export class SpeakerListPage {
   actionSheet: ActionSheet;
   speakers = [];
 
-  constructor(public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public confData: ConferenceData, public config: Config) {}
+  constructor(public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public tbData: TutorBotData, public config: Config) {}
 
   ionViewDidLoad() {
-    this.confData.getSpeakers().subscribe(speakers => {
+    this.tbData.getSpeakers().subscribe(speakers => {
       this.speakers = speakers;
     });
   }

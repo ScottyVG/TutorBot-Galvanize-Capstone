@@ -8,7 +8,7 @@ import { AlertController, App, ItemSliding, List, ModalController, NavController
 */
 // import moment from 'moment';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { TutorBotData } from '../../providers/tb-data';
 import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { UserData } from '../../providers/user-data';
@@ -31,7 +31,7 @@ export class SchedulePage {
   excludeTracks = [];
   shownSessions: any = [];
   groups = [];
-  confDate: string;
+  tbDate: string;
 
   constructor(
     public alertCtrl: AlertController,
@@ -39,7 +39,7 @@ export class SchedulePage {
     public loadingCtrl: LoadingController,
     public modalCtrl: ModalController,
     public navCtrl: NavController,
-    public confData: ConferenceData,
+    public tbData: TutorBotData,
     public user: UserData,
   ) {}
 
@@ -52,7 +52,7 @@ export class SchedulePage {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
-    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe(data => {
+    this.tbData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe(data => {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });

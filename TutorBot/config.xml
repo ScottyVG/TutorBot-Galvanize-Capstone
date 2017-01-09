@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="io.ionic.conferenceapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Tutor Bot</name>
   <description>
@@ -97,4 +97,4 @@
   <engine name="ios" spec="4.3.1"/>
   <engine name="android" spec="6.1.0"/>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
-</widget>
+</widget> -->

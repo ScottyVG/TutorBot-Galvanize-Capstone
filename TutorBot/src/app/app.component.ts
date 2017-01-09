@@ -11,7 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
 
-import { ConferenceData } from '../providers/conference-data';
+import { TutorBotData } from '../providers/tb-data';
 import { UserData } from '../providers/user-data';
 
 export interface PageInterface {
@@ -25,7 +25,7 @@ export interface PageInterface {
 @Component({
   templateUrl: 'app.template.html'
 })
-export class ConferenceApp {
+export class TutorBotApp {
   // the root nav is a child of the root app component
   // @ViewChild(Nav) gets a reference to the app's root nav
   @ViewChild(Nav) nav: Nav;
@@ -56,7 +56,7 @@ export class ConferenceApp {
     public userData: UserData,
     public menu: MenuController,
     public platform: Platform,
-    public confData: ConferenceData,
+    public tbData: TutorBotData,
     public storage: Storage
   ) {
 
@@ -72,7 +72,7 @@ export class ConferenceApp {
       })
 
     // load the conference data
-    confData.load();
+    tbData.load();
 
     // decide which menu items should be hidden by current login status stored in local storage
     this.userData.hasLoggedIn().then((hasLoggedIn) => {

@@ -1,6 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { TutorBotData } from '../../providers/tb-data';
 
 import { Platform } from 'ionic-angular';
 
@@ -14,12 +14,12 @@ declare var google: any;
 export class MapPage {
 
   @ViewChild('mapCanvas') mapElement: ElementRef;
-  constructor(public confData: ConferenceData, public platform: Platform) {
+  constructor(public tbData: TutorBotData, public platform: Platform) {
   }
 
   ionViewDidLoad() {
 
-      this.confData.getMap().subscribe(mapData => {
+      this.tbData.getMap().subscribe(mapData => {
         let mapEle = this.mapElement.nativeElement;
 
         let map = new google.maps.Map(mapEle, {

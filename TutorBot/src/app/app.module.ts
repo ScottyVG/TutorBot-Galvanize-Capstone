@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 
-import { ConferenceApp } from './app.component';
+import { TutorBotApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { PopoverPage } from '../pages/about-popover/about-popover';
@@ -20,13 +20,13 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
 
-import { TutorBotData } from '../providers/conference-data';
+import { TutorBotData } from '../providers/tb-data';
 import { UserData } from '../providers/user-data';
 
 
 @NgModule({
   declarations: [
-    ConferenceApp,
+    TutorBotApp,
     AboutPage,
     AccountPage,
     LoginPage,
@@ -43,11 +43,11 @@ import { UserData } from '../providers/user-data';
     SupportPage
   ],
   imports: [
-    IonicModule.forRoot(ConferenceApp)
+    IonicModule.forRoot(TutorBotApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ConferenceApp,
+    TutorBotApp,
     AboutPage,
     AccountPage,
     LoginPage,

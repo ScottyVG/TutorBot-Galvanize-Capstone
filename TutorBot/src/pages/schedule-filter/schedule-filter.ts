@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavParams, ViewController } from 'ionic-angular';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { TutorBotData } from '../../providers/tb-data';
 
 
 @Component({
@@ -13,14 +13,14 @@ export class ScheduleFilterPage {
   tracks: Array<{name: string, isChecked: boolean}> = [];
 
   constructor(
-    public confData: ConferenceData,
+    public tbData: TutorBotData,
     public navParams: NavParams,
     public viewCtrl: ViewController
   ) {
     // passed in array of track names that should be excluded (unchecked)
     let excludedTrackNames = this.navParams.data;
 
-    this.confData.getTracks().subscribe((trackNames: string[]) => {
+    this.tbData.getTracks().subscribe((trackNames: string[]) => {
 
       trackNames.forEach(trackName => {
         this.tracks.push({
