@@ -1,0 +1,45 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="primary">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides [options]="{pager: true}" (ionWillChange)="onSlideChangeStart($event)">
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <h2 class="slide-title">
+        Welcome to <b>Tutor Bot</b>
+      </h2>
+      <p>
+        The <b>Tutor Bot app</b> is a practical scheduling application to be used by teachers and students for scheduling classes.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
+      <h2 class="slide-title" >Why Tutor Bot?</h2>
+      <p><b>Tutor Bot</b> takes the hassel out of scheduling so that teachers and students can focus on what matters most, learning.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
+      <h2 class="slide-title">the Tutor Bot Platform</h2>
+      <p>The <b>Tutor Bot</b> is platform for managing teacher and student schedules with integrated services like push notifications, native builds, user auth, and live updating.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">Ready to Begin?</h2>
+      <button ion-button icon-right large clear (click)="startApp()">
+        Continue
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+
+  </ion-slides>
+</ion-content>

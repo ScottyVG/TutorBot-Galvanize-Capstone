@@ -1,0 +1,25 @@
+$categories: (
+ ionic: color($colors, primary),
+ navigation: #AC282B,
+ english: #8E8D93,
+ math: #FE4C52,
+ services: #FD8B2D,
+ music: #FED035,
+ science: #69BB7B,
+ food: #3BC7C4,
+ survival: #B16BE3,
+ swimming: #6600CC,
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+page-schedule {
+  @each $track, $value in auxiliary-categories() {
+   ion-item-sliding[track=#{$track}] ion-label {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+}

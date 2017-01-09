@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>About</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/logo.png" alt="logo">
+  </div>
+  <div padding class="about-info">
+    <h4>Tutor Bot</h4>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-icon name="calendar" item-left></ion-icon>
+        <ion-label>Date</ion-label>
+        <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="conferenceDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" item-left></ion-icon>
+        <ion-label>Location</ion-label>
+        <ion-select>
+          <ion-option value="madison" selected>Boulder, CO</ion-option>
+          <ion-option value="austin">Austin, TX</ion-option>
+          <ion-option value="chicago">Chicago, IL</ion-option>
+          <ion-option value="seattle">Seattle, WA</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <p>
+      The <b>Tutor Bot app</b> is a practical scheduling application to be used by teachers and students for scheduling classes. <b>Tutor Bot</b> takes the hassel out of scheduling so that teachers and students can focus on what matters most, learning.The <b>Tutor Bot</b> is platform for managing teacher and student schedules with integrated services like push notifications, native builds, user auth, and live updating.
+    </p>
+  </div>
+</ion-content>
